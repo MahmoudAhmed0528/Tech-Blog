@@ -1,0 +1,42 @@
+<h1>Edit Post</h1>
+
+<form id="edit-post-form">
+  <div class="mb-3">
+    <label for="title" class="form-label">Title:</label>
+    <input
+      type="text"
+      id="title"
+      name="title"
+      value="{{formData.title}}"
+      class="form-control"
+      required
+    />
+
+  </div>
+
+  <div class="mb-3">
+    <label for="post_text" class="form-label">Post Content:</label>
+    <textarea
+      id="post_text"
+      name="post_text"
+      class="form-control"
+      required
+    >{{formData.post_text}}</textarea>
+
+  </div>
+
+  <button type="submit" class="btn btn-primary">Edit</button>
+  <button
+    type="button"
+    class="btn btn-danger btn-sm delete-post-btn"
+    data-post-id="{{id}}"
+  >Delete Post</button>
+  <div>
+    <a href="/dashboard" class="btn btn-secondary mt-3">
+      &larr; Back to dashboard</a>
+  </div>
+
+</form>
+
+<script src="/javascript/edit-post.js"></script>
+<script src="/javascript/delete-post.js"></script>

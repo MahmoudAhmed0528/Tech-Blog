@@ -1,0 +1,24 @@
+<h1>Edit Comment</h1>
+
+<form id="edit-comment-form">
+  <div class="mb-3">
+    <label for="comment_text" class="form-label">Comment:</label>
+    <textarea
+      id="comment_text"
+      name="comment_text"
+      class="form-control"
+      required
+    >{{formData.comment_text}}</textarea>
+  </div>
+
+  <button type="submit" class="btn btn-primary">Edit</button>
+  <button type="button" class="btn btn-danger" id="delete-comment-btn">Delete
+    Comment</button>
+  <div>
+    <a href="/dashboard" class="btn btn-secondary mt-3">
+      &larr; Back to dashboard</a>
+  </div>
+</form>
+
+<script src="/javascript/edit-comment.js"></script>
+<script src="/javascript/delete-comment.js"></script>

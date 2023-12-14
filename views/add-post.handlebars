@@ -1,0 +1,33 @@
+<h1>Add Post</h1>
+
+<form id="add-post-form">
+  <div class="mb-3">
+    <label for="title" class="form-label">Title:</label>
+    <input
+      type="text"
+      id="title"
+      name="title"
+      value="{{formData.title}}"
+      class="form-control"
+      required
+    />
+  </div>
+
+  <div class="mb-3">
+    <label for="post_text" class="form-label">Post Content:</label>
+    <textarea
+      id="post_text"
+      name="post_text"
+      class="form-control"
+      required
+    >{{formData.post_text}}</textarea>
+  </div>
+
+  <button type="submit" class="btn btn-primary">Add Post</button>
+  <div>
+    <a href="/dashboard" class="btn btn-secondary mt-3">
+      &larr; Back to dashboard</a>
+  </div>
+</form>
+
+<script src="/javascript/add-post.js"></script>

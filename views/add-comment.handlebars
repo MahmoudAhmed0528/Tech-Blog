@@ -1,0 +1,21 @@
+<h1>Add Comment</h1>
+
+<form id="add-comment-form">
+  <div class="mb-3">
+    <label for="comment_text" class="form-label">Comment:</label>
+    <textarea
+      id="comment_text"
+      name="comment_text"
+      class="form-control"
+      required
+    >{{formData.comment_text}}</textarea>
+  </div>
+
+  <button type="submit" class="btn btn-primary">Add</button>
+  <div>
+    <a href="/dashboard" class="btn btn-secondary mt-3">
+      &larr; Back to dashboard</a>
+  </div>
+</form>
+
+<script src="/javascript/add-comment.js"></script>
