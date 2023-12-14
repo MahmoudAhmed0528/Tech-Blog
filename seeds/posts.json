@@ -1,0 +1,32 @@
+[
+  {
+    "title": "GraphQL Basics",
+    "post_text": "GraphQL is a query language for APIs and a runtime for executing those queries with your existing data. It offers a more efficient and powerful alternative to the traditional REST API.",
+    "user_id": 1
+  },
+  {
+    "title": "Responsive Web Design",
+    "post_text": "Responsive web design is crucial for ensuring your website looks good and functions well on a variety of devices, from desktops to smartphones. Techniques like media queries and flexible grids are key components.",
+    "user_id": 2
+  },
+  {
+    "title": "Docker for Developers",
+    "post_text": "Docker simplifies the process of developing, shipping, and running applications by using containers. It provides a consistent environment across different development and deployment stages.",
+    "user_id": 3
+  },
+  {
+    "title": "JavaScript Promises",
+    "post_text": "Promises are a powerful feature in JavaScript that allows you to work with asynchronous code in a more organized and readable way. They provide a cleaner alternative to callbacks.",
+    "user_id": 4
+  },
+  {
+    "title": "React State Management",
+    "post_text": "Managing state is a critical aspect of building React applications. Tools like Redux or the built-in React Context API help you manage state in a scalable and maintainable manner.",
+    "user_id": 5
+  },
+  {
+    "title": "Cybersecurity Best Practices",
+    "post_text": "As a developer, understanding cybersecurity best practices is essential for protecting your applications and user data. This includes secure coding, encryption, and regular security audits.",
+    "user_id": 3
+  }
+]
