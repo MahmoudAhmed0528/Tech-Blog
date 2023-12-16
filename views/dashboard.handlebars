@@ -1,4 +1,8 @@
+<style>
+  body { margin-bottom: 50px; }
+</style>
 <h1 class="mb-4">Dashboard</h1>
+<h2 class="mb-4">Welcom : {{myUser}}</h2>
 
 {{#each posts}}
   <div class="card mb-4">
@@ -36,7 +40,5 @@
 {{/each}}
 
 <a href="/add-post" class="btn btn-primary">Add Post</a>
-<button type="button" class="btn btn-danger" id="logout">Logout</button>
 
-<script src="/javascript/logout.js"></script>
 <script src="/javascript/delete-post.js"></script>
