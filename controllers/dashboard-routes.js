@@ -3,12 +3,8 @@ const { User, Post, Comment } = require("../models");
 const bcrypt = require("bcrypt");
 const withAuth = require("../utils/auth");
 
-// Homepage route
-router.get("/", withAuth, async (req, res) => {
-  res.render("home", {
-    logged_in: req.session.logged_in,
-    username: req.session.username,
-  });
+router.get("/", async (req, res) => {
+  res.render("home");
 });
 
 // Render the login page
@@ -119,7 +115,8 @@ router.get("/dashboard", withAuth, async (req, res) => {
     res.render("dashboard", {
       posts,
       logged_in: req.session.logged_in,
-      user: req.session.user,
+      // user: req.session.user,
+      myUser: req.session.username,
     });
   } catch (err) {
     console.error(err);
