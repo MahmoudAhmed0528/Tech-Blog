@@ -59,7 +59,7 @@ If you would like to contribute to this project, please follow these guidelines:
 
 ## Demo
 
-[Link to Walkthrough Video]()
+[Link to Walkthrough Video](https://www.youtube.com/watch?v=Q6VdEnr62mk)
 
 ## Links
 
