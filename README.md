@@ -63,7 +63,7 @@ If you would like to contribute to this project, please follow these guidelines:
 
 ## Links
 
-- **Deployed Application:** [https://hidden-scrubland-77410-e4c3a6a52eee.herokuapp.com/]
+- **Deployed Application / Heroku URL:** [https://hidden-scrubland-77410-e4c3a6a52eee.herokuapp.com/]
 - **GitHub Repository:** [https://github.com/MahmoudAhmed0528/Tech-Blog]
 
 ## License
